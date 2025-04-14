@@ -1,3 +1,12 @@
+//  refresh-input-focus.swift
+//  ims-mac
+//
+//  Created by LuSrackhall
+//  Copyright (c) 2025 LuSrackhall. All rights reserved.
+//
+//  This source code is licensed under the MIT license found in the
+//  LICENSE file in the root directory of this source tree.
+
 import Cocoa
 
 class StatusBarController: NSObject, NSApplicationDelegate {
