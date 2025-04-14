@@ -4,4 +4,12 @@
 
 ## 安装
 
-请前往[release页面](https://github.com/LuSrackhall/ims-mac/releases)进行安装 。
+### 使用 Homebrew 安装
+
+```bash
+brew install lusrackhall/tap/ims-mac
+```
+
+### 手动安装
+
+请前往[release页面](https://github.com/LuSrackhall/ims-mac/releases)进行安装。
