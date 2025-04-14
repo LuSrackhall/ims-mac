@@ -6,7 +6,7 @@ RED='\033[0;31m'
 NC='\033[0m'
 
 INSTALL_PATH="/usr/local/bin"
-BINARIES=("refresh-input-focus" "im-select" "ims-mac")
+BINARIES=("refresh-input-focus" "im-select__ims-mac" "ims-mac")
 
 # 检查是否有root权限
 if [ "$EUID" -ne 0 ]; then

@@ -9,7 +9,7 @@ import (
 func main() {
 	var cmd *exec.Cmd
 	if len(os.Args) > 1 {
-		err := exec.Command("im-select", os.Args[1]).Run()
+		err := exec.Command("im-select__ims-mac", os.Args[1]).Run()
 		if err != nil {
 			fmt.Printf("执行失败: %v\n", err)
 			return
@@ -20,7 +20,7 @@ func main() {
 			fmt.Printf("执行refresh-input-focus失败: %v\n", err)
 		}
 	} else {
-		cmd = exec.Command("im-select")
+		cmd = exec.Command("im-select__ims-mac")
 		output, err := cmd.CombinedOutput()
 		if err != nil {
 			fmt.Printf("执行失败: %v\n", err)

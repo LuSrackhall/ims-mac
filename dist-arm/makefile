@@ -1,5 +1,5 @@
 INSTALL_PATH = /usr/local/bin
-BINARIES = refresh-input-focus im-select ims-mac
+BINARIES = refresh-input-focus im-select__ims-mac ims-mac
 
 install:
 	@echo "Installing binaries to $(INSTALL_PATH)..."
