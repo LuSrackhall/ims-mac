@@ -12,6 +12,10 @@
 此方案无侵入且无限接近原生api直接切换的效果, 可见[此分析](https://github.com/LuSrackhall/switch-input-method/issues/2)详细了解
 > 除非后续官方修复输入法切换相关api调用的bug, 否则这就是目前最完美的解决方案。当然也欢迎更多的取巧方案机制纳入对比。
 
+由于此方案非常具有优势:
+* 社区中一直致力于解决此问题的 [macism](https://github.com/laishulu/macism) 项目也在v2版本从模拟键盘输入的方式改为使用此机制来提升性能和切换的可靠性。
+* 我也向[im-select](https://github.com/daipeihust/im-select)项目社区提出了关于是否引入此解决方案的的相关见解->[见此链接](https://github.com/daipeihust/im-select/issues/86)。
+
 ## 安装
 
 ### 使用 Homebrew 安装
