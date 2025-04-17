@@ -18,11 +18,21 @@
 
 ## 安装
 
-### 使用 Homebrew 安装
+### 使用 Homebrew 安装(推荐)
 
 ```bash
 brew install lusrackhall/tap/ims-mac
 ```
+
+> 通过brew方式的最终安装路径通常是:`/opt/homebrew/bin/`
+
+**如果需要卸载, 可以使用以下命令**:
+
+```bash
+brew uninstall lusrackhall/tap/ims-mac
+```
+
+> 仅适用于通过brew安装的情况, 如果您是手动安装, 请参考release页面的安装卸载说明。
 
 ### 手动安装
 
